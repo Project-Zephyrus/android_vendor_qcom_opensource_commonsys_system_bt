@@ -196,8 +196,8 @@ static void init_soc_type() {
 
   soc_type = BT_SOC_DEFAULT;
 
-  ALOGI("vendor.bluetooth.soc prop not set");
-  ret = property_get("vendor.bluetooth.soc", bt_soc_type, NULL);
+  ALOGI("vendor.qcom.bluetooth.soc prop not set");
+  ret = property_get("vendor.qcom.bluetooth.soc", bt_soc_type, NULL);
 
   if (ret != 0) {
     int i;
