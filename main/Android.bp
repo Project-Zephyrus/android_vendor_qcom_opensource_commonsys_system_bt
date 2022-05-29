@@ -4,8 +4,8 @@
 cc_library_shared {
     name: "libbluetooth_qti",
     defaults: ["fluoride_defaults_qti"],
-    header_libs: ["libbluetooth_headers"],
-    export_header_lib_headers: ["libbluetooth_headers"],
+    header_libs: ["libbluetooth_headers_qti"],
+    export_header_lib_headers: ["libbluetooth_headers_qti"],
     system_ext_specific: true,
     srcs: [
         // platform specific

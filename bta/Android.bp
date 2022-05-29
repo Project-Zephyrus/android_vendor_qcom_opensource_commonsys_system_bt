@@ -30,7 +30,7 @@ cc_defaults {
     shared_libs: [
         "libcutils",
     ],
-    header_libs: ["libbluetooth_headers"],
+    header_libs: ["libbluetooth_headers_qti"],
     cflags: [
         "-DBUILDCFG",
     ],

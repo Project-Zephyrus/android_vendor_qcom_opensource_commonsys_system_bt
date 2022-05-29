@@ -26,7 +26,7 @@ cc_library_static {
         "srvc",
     ],
     header_libs: [
-        "libbluetooth_headers",
+        "libbluetooth_headers_qti",
     ],
     include_dirs: [
         "external/aac/libAACenc/include",
